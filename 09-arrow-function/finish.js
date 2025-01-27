@@ -10,3 +10,14 @@
  *
  * 5. Перепишите функцию так, чтобы результат возвращался неявно
  */
+
+const helloWorld1 = () => {
+	return console.log('Привет мир!')
+}
+
+console.log(helloWorld1())
+
+
+const helloWorld2 = () => 'Привет мир'
+
+console.log(helloWorld2())
